@@ -9,25 +9,62 @@ body{
 
 body h1{
     color:#FE4554;
+    font-weight:600;
 }
 
 body label{
     color:#FE4554;
     font-family: 'K2D';
     font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 56px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    body label{
+        font-size: 1rem;
+    }
 }
 
 main{
     display: inline-block;
-    position: absolute;
-    
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2%;
+    width: 40%;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 2%;
 }   
 
-.gray-background{
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 2%;
+.input-main{
+    border-radius: 5px;
+    position: relative;
+    width: 55%;
+    border-color: #FE4554;
+    background-color: black;
+    color:white ;
+    display: block;
+    margin-left: 20%;
+    padding: 0.7%;
+    margin-bottom: 2%;  
 }
 
+.form #button-entrar{
+    background-color: #FE4554;
+    border-radius:10%;
+    width: 20%;
+    height: 40px;
+    border: 9px;
+    border-color: black;
+}
+
+.form #button-cadastrar{
+    background-color: #FE4554;
+    border-radius:10%;
+    width: 20%;
+    height: 40px;
+    border: 9px;
+    border-color: black;
+    word-wrap: break-word;
+
+}
