@@ -6,10 +6,19 @@ body{
     text-align: center;
     
 }   
+@font-face {
+    font-family: "Monomaniac One";
+    src: url("../fonts/MonomaniacOne-Regular.ttf");
+  }
 
 body h1{
     color:#FE4554;
     font-weight:600;
+    font-family: 'Monomaniac One';
+    font-style: normal;
+    font-size:64px; ;
+    text-align: right;
+    margin-right:26% ;
 }
 
 body label{
@@ -17,8 +26,11 @@ body label{
     font-family: 'K2D';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-family: 'Monomaniac One';
+    margin-left: -45%;
 }
+
 
 @media screen and (max-width: 768px) {
     body label{
@@ -51,20 +63,56 @@ main{
 
 .form #button-entrar{
     background-color: #FE4554;
-    border-radius:10%;
+    border-radius:8%;
     width: 20%;
     height: 40px;
     border: 9px;
-    border-color: black;
+    font-family: 'Monomaniac One';
+    border: solid 2px white;
+    font-size: 1.1rem;
+
 }
 
 .form #button-cadastrar{
-    background-color: #FE4554;
+    background-color: #ffffff;
     border-radius:10%;
     width: 20%;
     height: 40px;
     border: 9px;
-    border-color: black;
-    word-wrap: break-word;
+    border: solid 3px #FE4554 ;
+    font-family: 'Monomaniac One';
+    font-size: 1.1rem;
+
 
 }
+
+.container {
+    position: relative;
+    width: 800px; 
+    height: 600px; 
+  }
+  
+  .container img {
+    position: absolute;
+    top: 170%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+  
+  .container2 {
+    position: relative;
+    width: 80px; 
+    height: 80px; 
+  }
+  
+  .container2 img {
+    position: absolute;
+    top: 17%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+  
