@@ -116,3 +116,23 @@ main{
     max-height: 100%; 
   }
   
+
+
+.menuJogos{
+    display: inline;
+
+}
+
+input{
+    background-color:#1E1E1E;
+    border: solid 2px #FE4554;
+    color: #FE4554;
+    font-family: 'Monomaniac One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline;
+    
+}
