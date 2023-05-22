@@ -16,7 +16,7 @@ body{
     position: absolute;
     width: 462px;
     height: 767.34px;
-    left: 806px;
+    left: 1130px;
     top: 269px;
 }
 .container{
@@ -36,10 +36,6 @@ nav ul{
     margin: 25 0px;
 
 
-}
-
-nav ul a {
-    margin-right: 25000000%;
 }
     /* CSS */
 /* CSS */
@@ -129,14 +125,13 @@ nav ul a {
     box-shadow: none;
     transform: translateY(0);
   }
-  h1{
+  .banner .banner-text h1{
     color: #FE4554;    
     font-family: 'Monomaniac One';
     font-style: normal;
     font-weight: 150px;
-    font-size: 40px;
-    line-height: 139px;
-    padding-bottom: -20px;
+    font-size: 70px;
+
     
   }
 .sobre .container{
@@ -148,18 +143,66 @@ nav ul a {
     width: 50%;
     padding: 0 40px;
 }
-.sobre .como-funiona-texto h2{
-    font-size: 56px;
+.como-funiona-texto h2{
+  font-family: 'Monomaniac One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 139px;
+  color: #FE4554;
+
 
 }
-.sobre .como-funiona-texto p{
+.como-funiona-texto  p{
     margin: 5px 0 10px 0;
+    font-size: 48px;
+    color: #FE4554;
+    font-family: 'Monomaniac One';
+
 }
-.sobre .como-funciona-img{
+.sobre .container .como-funciona-img{
     widht:50%;
 
 }
-.sobre .como-funiona-img img{
+.sobre .container .como-funiona-img img{
     width: 100%;
 
+}
+
+nav a img{
+  width: 347px;
+  height: 93px;
+  left: 527px;
+  top: 88px;
+
+}
+.banner{
+  display: flex;
+}
+.banner .container2 img{
+  width: 462px;
+  height: 767.34px;
+  left: 806px;
+  top: 269px;
+
+}
+.banner .banner-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.sobre{
+  display: flex;
+  flex-direction: column;
+}
+.como-funciona{
+  display: flex;
+}
+.como-funciona img{
+  width: 315px;
+  height: 612px;
+  margin-left
+}
+header{
+  margin-bottom: 600px;
 }
