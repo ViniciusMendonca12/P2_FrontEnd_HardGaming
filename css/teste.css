@@ -163,7 +163,7 @@ nav ul{
 
 }
 .sobre .container .como-funciona-img{
-    widht:50%;
+    width: 50%;
 
 }
 .sobre .container .como-funiona-img img{
@@ -205,7 +205,6 @@ nav a img{
 .como-funciona img{
   width: 315px;
   height: 612px;
-  margin-left
 }
 header{
   margin-bottom: 400px;
