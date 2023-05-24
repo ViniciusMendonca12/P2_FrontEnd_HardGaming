@@ -10,7 +10,8 @@
 }
 
 body{
-    background-image: url('../img/background-image-blue.jpg')
+    background-image: url('../img/background-image-blue.jpg');
+    /* background-color:#000000; */
 }
 .container2{
     position: absolute;
@@ -132,22 +133,23 @@ nav ul{
     font-weight: 150px;
     font-size: 70px;
 
+
     
   }
 .sobre .container{
     display: flex;
     align-items: center;
+    margin-bottom: 400px;
 
   }
-.sobre .como-funiona-texto{
-    width: 50%;
+.como-funiona-texto{
     padding: 0 40px;
 }
 .como-funiona-texto h2{
   font-family: 'Monomaniac One';
   font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
+  font-weight: 400px;
+  font-size: 56px;
   line-height: 139px;
   color: #FE4554;
 
@@ -155,7 +157,7 @@ nav ul{
 }
 .como-funiona-texto  p{
     margin: 5px 0 10px 0;
-    font-size: 48px;
+    font-size: 40px;
     color: #FE4554;
     font-family: 'Monomaniac One';
 
@@ -190,6 +192,8 @@ nav a img{
   display: flex;
   flex-direction: column;
   justify-content: end;
+  margin-top: 250px;
+
 }
 .sobre{
   display: flex;
@@ -204,5 +208,112 @@ nav a img{
   margin-left
 }
 header{
-  margin-bottom: 600px;
+  margin-bottom: 400px;
 }
+
+.titulo h1{
+  width: 651px;
+  height: 139px;
+  left: 377px;
+  top: 1943px;
+
+  font-family: 'Monomaniac One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 139px;
+  color: #FE4554;
+}
+.jogos{
+  margin-top: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.valorant{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+  
+}
+.lol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+  
+}
+.clash{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+  
+}
+.cs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+  
+}
+.jogos-disponiveis{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.jogos-disponiveis h2{
+  color: #FE4554;
+  font-family: 'Monomaniac One';
+  font-style: normal;
+  margin-top: 5px;
+
+
+}
+
+/* CSS */
+/* .button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+} */
