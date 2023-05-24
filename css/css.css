@@ -31,6 +31,26 @@ body label{
     margin-left: -45%;
 }
 
+.topoCriarConta{
+    display: flex;
+}
+
+.topoCriarConta img{
+    height:60px ;
+    width: 60px;
+}
+
+.topoCriarConta h1{
+    margin-bottom:-10px;
+    margin-left: 770px;
+
+}
+
+.barbaroCriar{
+    margin-top: 50px;
+    width: 300px;
+    height: 500px;
+}
 
 @media screen and (max-width: 768px) {
     body label{
@@ -101,11 +121,7 @@ main{
     max-height: 100%; 
   }
   
-  .container2 {
-    position: relative;
-    width: 80px; 
-    height: 80px; 
-  }
+  
   
   .container2 img {
     position: absolute;
@@ -118,12 +134,8 @@ main{
   
 
 
-.menuJogos{
-    display: inline;
 
-}
-
-input{
+.menuJogos  input, .topo input{
     background-color:#1E1E1E;
     border: solid 2px #FE4554;
     color: #FE4554;
@@ -194,9 +206,7 @@ input{
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    
-
-color: #FE4554;
+    color: #FE4554;
 }
 
 .perfilArea h4{
@@ -223,4 +233,161 @@ color: #FE4554;
 
 .imagemBruxa{
     margin-top: 25px;
+}
+
+.torneiosDisponiveisTexto{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -80px;
+}
+
+.menuJogos{
+    display: inline-block;
+
+}
+
+.baixo{
+    display: flex;
+}
+
+.baixo div a{
+    font-family: 'Monomaniac One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;    
+    color: #FE4554;
+    text-decoration: none;
+     
+}
+
+.criarTorneio{
+    display: flex;
+    margin:50px 0px 30px 80px;
+}
+
+.meusTorneios{
+    margin:50px 0px 30px 80px;
+    display: flex;
+
+}
+
+.chat{
+    display: flex;
+    margin:50px 0px 30px 80px;
+}
+
+.iconesTorneio div a{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.brasil{
+    margin-top: 80px;
+}
+
+.boxTorneio{
+    background-color:#1E1E1E;
+    border: solid 2px #FE4554;
+    border-radius: 5px;
+    height: 70px;
+    width: 910px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.containerBox{
+    background-image:url(../img/zeri.png) ;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    background-position-x: 80%;
+    background-position-y: 70%;
+
+}
+
+
+.topoMeusTorneios{
+    display: flex;
+}
+
+.topoMeusTorneios img{
+    height: 60px;
+    width: 60px;
+
+}
+
+.topoMeusTorneios h1{
+    margin-left: 40%;
+}
+
+
+.boxMeuTorneio{
+    background-color:#1E1E1E;
+    border: solid 2px #FE4554;
+    border-radius: 5px;
+    height: 70px;
+    width: 910px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.containerBoxMeuTorneio{
+    background-image:url(../img/jinx.png) ;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    background-position-x: -10%;
+    background-position-y: 70%;
+    margin-left: 16%;
+
+}
+
+.boxMeuTorneio h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FE4554;
+    margin-top: 15px;
+}
+
+.boxMeuTorneio h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;    
+    color: #FFFFFF;
+    margin-left: 30px;
+
+
+}
+
+.meuTorneioCaixaTitulo{
+    display: flex;
+}
+
+.meuTorneioCaixaInfo{
+    display: flex;
+}
+
+.meuTorneioCaixaInfo2{
+    display: flex;
+    margin-top: -20px;
+}
+
+.quantidade{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-left: 300px;
+    margin-top: 15px;
+
+    
 }

@@ -7,20 +7,21 @@
     <title>Criar Conta</title>
 </head>
 <body id="entrar">
-    <div class="container">
-        <img src="../img/barbaroCriar.png" alt="Barbaro clash of clans">
-    
-    </div>
-    <div class="container2">
-        <img src="../img/botao-voltar.png" alt="botaovoltar" id="botaoVoltarCriar">
 
-    </div>
-    
+
+   <section class="topoCriarConta">
+
+    <img src="../img/botao-voltar.png" alt="botaovoltar" id="botaoVoltarCriar">
+
     <h1>Criar Conta</h1>
 
 
+   </section>
+
+   <img class="barbaroCriar" src="../img/barbaroCriar.png" alt="barbaro atacando">
 
 <main>
+
         <form class="form">
 
         <label for="usuario">Usuário:</label>
@@ -30,12 +31,12 @@
         <input type="text" id="email" class="input-main">
 
         <label for="senha">Senha:</label>
-        <input type="text" id="senha" class="input-main">
+        <input type="password" id="senha" class="input-main">
 
         <label for="confSenha" style="margin-left: -30%;"> Confirmar Senha:</label>
-        <input type="text" id="confSenha" class="input-main">
+        <input type="password" id="confSenha" class="input-main">
 
-        <input type="button" value="Cadastrar" id="button-cadastrar">
+        <input type="button" value="Cadastrar" id="button-cadastrar" onClick="cadastrar">
         <input type="button" value="Entrar" id="button-entrar">
         
 
@@ -43,4 +44,5 @@
 </main>
 
 </body>
+<script scr="../script/script.js"></script>
 </html>
