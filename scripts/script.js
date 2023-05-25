@@ -11,7 +11,7 @@ function cadastrar(){
    const emailvalor = email.value;
 
 
-    if(senhaValor.length < 1 && confirmarSenhaValor.length < 1 && usuarioValor.length < 1 && emailvalor.length < 1 &&){
+    if(senhaValor.length < 1 && confirmarSenhaValor.length < 1 && usuarioValor.length < 1 && emailvalor.length < 1 ){
         alert("Você deve Preencher todos os campos!!")
     }else if( usuarioValor < 1){
         alert("Preencha as outras informações!!")
