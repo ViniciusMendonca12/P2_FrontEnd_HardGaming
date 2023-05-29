@@ -17,6 +17,7 @@ body {
     #d9dbd5 130px,
     #d9dbd5 100%
   );
+  background-image: url('../img/background-image-blue.jpg');
 }
 
 .container {
@@ -32,14 +33,14 @@ body {
 .container .leftSide {
   position: relative;
   flex: 30%;
-  background: #fff;
+  background: #212129;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .container .rightSide {
   position: relative;
   flex: 70%;
-  background: #e5ddd5;
+  background: #212129;
 }
 
 .container .rightSide::before {
@@ -57,7 +58,7 @@ body {
   position: relative;
   width: 100%;
   height: 60px;
-  background: #ededed;
+  background: #020703;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,7 +91,7 @@ body {
   display: flex;
   list-style: none;
   cursor: pointer;
-  color: #51585c;
+  color: #FE4554;
   font-size: 1.5em;
   margin-left: 22px;
 }
@@ -99,7 +100,7 @@ body {
   position: relative;
   width: 100%;
   height: 50px;
-  background: #f6f6f6;
+  background: #212129;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +115,7 @@ body {
   width: 100%;
   outline: none;
   border: none;
-  background: #fff;
+  background: #343442;
   padding: 6px;
   height: 38px;
   border-radius: 30px;
@@ -123,7 +124,7 @@ body {
 }
 
 .search_chat div input::placeholder {
-  color: #bbb;
+  color: #FE4554;
 }
 
 .search_chat div ion-icon {
@@ -131,6 +132,7 @@ body {
   left: 30px;
   top: 14px;
   font-size: 1.2em;
+  color: #FE4554;
 }
 
 .chatlist {
@@ -150,11 +152,11 @@ body {
 }
 
 .chatlist .block.active {
-  background: #ebebeb;
+  background: #212129;
 }
 
 .chatlist .block:hover {
-  background: #f5f5f5;
+  background: #30303d;
 }
 
 .chatlist .block .imgBox {
@@ -180,20 +182,20 @@ body {
 .chatlist .block .details .listHead h4 {
   font-size: 1.1em;
   font-weight: 600;
-  color: #111;
+  color: #FE4554;
 }
 
 .chatlist .block .details .listHead .time {
   font-size: 0.75em;
-  color: #aaa;
+  color: #FE4554;
 }
 
 .chatlist .block .details .listHead .time {
-  color: #111;
+  color: #FE4554;
 }
 
 .chatlist .block.unread .details .listHead .time {
-  color: #06d755;
+  color: #FE4554;
 }
 
 .message_p {
@@ -203,8 +205,8 @@ body {
 }
 
 .message_p b {
-  background: #06d755;
-  color: #fff;
+  background: #FE4554;
+  color: #343442;
   min-width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -215,7 +217,7 @@ body {
 }
 
 .message_p p {
-  color: #aaa;
+  color: #FE4554;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   font-size: 0.9em;
@@ -229,6 +231,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color:#FE4554;
 }
 
 .imgText h4 {
@@ -239,7 +242,7 @@ body {
 
 .imgText h4 span {
   font-size: 0.8em;
-  color: #555;
+  color:#FE4554;
 }
 
 /* CHAT BOX */
@@ -264,7 +267,7 @@ body {
   text-align: right;
   max-width: 65%;
   padding: 12px;
-  background: #dcf8c8;
+  background: #020703;
   border-radius: 10px;
   font-size: 0.9em;
 }
@@ -278,8 +281,8 @@ body {
   height: 20px;
   background: linear-gradient(
     135deg,
-    #dcf8c6 0%,
-    #dcf8c6 50%,
+    #020703 0%,
+    #020703 50%,
     transparent 50%,
     transparent
   );
@@ -294,6 +297,7 @@ body {
 
 .my_msg {
   justify-content: flex-end;
+  color:#FE4554;
 }
 
 .friend_msg {
@@ -301,8 +305,9 @@ body {
 }
 
 .friend_msg p {
-  background: #fff;
+  background: #020703;
   text-align: left;
+  color:#FE4554;
 }
 
 .message.friend_msg p::before {
@@ -314,8 +319,8 @@ body {
   height: 20px;
   background: linear-gradient(
     225deg,
-    #fff 0%,
-    #fff 50%,
+    #020703 0%,
+    #020703 50%,
     transparent 50%,
     transparent
   );
@@ -325,7 +330,7 @@ body {
   position: relative;
   width: 100%;
   height: 60px;
-  background: #f0f0f0;
+  background: #212129;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -335,7 +340,7 @@ body {
 .chat_input ion-icon {
   cursor: pointer;
   font-size: 1.8em;
-  color: #51585c;
+  color: #FE4554;
 }
 
 .chat_input ion-icon:nth-child(1) {
@@ -351,4 +356,9 @@ body {
   outline: none;
   border-radius: 30px;
   font-size: 1em;
+  background-color: #30303d;
+
+}
+.chat_input div input::placeholder {
+  color: #FE4554;
 }
