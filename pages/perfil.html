@@ -1,37 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="../css/perfil.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HardGaming</title>
 </head>
-<body>
-    <img src="../img/voltar.png" alt="voltar">
-    <h1>Perfil</h1>
-    <img src="../img/brasil.png" alt="pais">
-    <img src="../img/perfilFoto.png" alt="perfilFoto">
-    <p>Nome Perfil</p>
-    <img src="../img/lapis.png" alt="editar">
-    <p>jogo favorito</p>
-    <p>Vitorias</p>
-    <h2>Clash of Clans</h2>
-    <h3>Vitorias</h3>
-    <h3>derrotas</h3>
-    <h3>Torneios vencidos</h3>
-    <h2>League of legends</h2>
-    <h3>Vitorias</h3>
-    <h3>derrotas</h3>
-    <h3>Torneios vencidos</h3>
-    <h2>CS:GO</h2>
-    <h3>Vitorias</h3>
-    <h3>derrotas</h3>
-    <h3>Torneios vencidos</h3>
-    <h2>VALORANT</h2>
-    <h3>Vitorias</h3>
-    <h3>derrotas</h3>
-    <h3>Torneios vencidos</h3>
-    <img src="../img/logo.png" alt="logo">
-    <h1>HardGaming</h1>
+<body id="entrar">
+    <Header>
+        <nav>
+            <a href="../pages/PaginaTorneios.html">
+                <img src="../img/voltar.png" alt="voltar">
+            </a>
+            <h1>Perfil</h1>
+            <img src="../img/brasil.png" alt="pais" class="brasil" class="voltar">
+        </nav>
+        <section class="banner">
+            <div class="perfil">
+                <img src="../img/perfilFoto.png" alt="perfilFoto">
+                <div class="nomeP">
+                    <p>Nome Perfil</p>
+                    <ion-icon name="pencil-outline"></ion-icon>
+                </div>
+                <div class="jogofav">
+                    <p>jogo favorito</p>
+                </div>
+                <p>Vitorias</p>
+            </div>
+            <div class="container2">
+                <img src="../img/trofeu.svg" alt="trofeu">
+            </div>
+        </section>
+    </Header>
+    <section class="jogos">
+        <div class="jogos-disponiveis">
+            <div class="clash">
+                <h2>Clash of Clans</h2>
+                <h3>Vitorias</h3>
+                <h3>derrotas</h3>
+                <h3>Torneios vencidos</h3>
+
+            </div>
+            <div class="lol">
+                <h2>League of legends</h2>
+                <h3>Vitorias</h3>
+                <h3>derrotas</h3>
+                <h3>Torneios vencidos</h3>
+
+            </div>
+            <div class="cs">
+                <h2>CS:GO</h2>
+                <h3>Vitorias</h3>
+                <h3>derrotas</h3>
+                <h3>Torneios vencidos</h3>
+            </div>
+            <div class="valorant">   
+                <h2>VALORANT</h2>
+                <h3>Vitorias</h3>
+                <h3>derrotas</h3>
+                <h3>Torneios vencidos</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="fim">
+        <img src="../img/logo.png" alt="logo" class="fim">
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
