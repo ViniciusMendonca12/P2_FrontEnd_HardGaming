@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Monomaniac One";
+    src: url("../fonts/MonomaniacOne-Regular.ttf");
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Monomaniac One';
+    color: #FE4554;
+}
+
+body{
+    background-image: url('../img/background-image-blue.jpg');
+    /* background-color:#000000; */
+}
+
+header{
+
+   
+    padding-left: 220px;
+    padding-right: 220px;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:30px;
+    padding-left: 220px;
+    padding-right: 220px;
+    flex-direction: row;
+}
+
+nav h1{
+ 
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 139px;
+    text-align: center;
+
+}
+.brasil{
+    width: 120px;
+    height: 120px;
+    left: 660px;
+    top: 882px;
+}
+.voltar{
+    width: 88px;
+    height: 88px;
+    left: 181px;
+    top: 28px;
+    margin-left: 90px;
+}
+.jogos{
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .valorant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    
+  }
+  .lol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    
+  }
+  .clash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    
+  }
+  .cs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    
+  }
+  .jogos-disponiveis{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .jogos-disponiveis h2{
+    color: #FE4554;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 5px;
+  }
+
+  .fim{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .fim img{
+    margin-top: 30px;
+  }
+
+  .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:30px;
+    padding-left: 110px;
+    padding-right: 110px;
+    flex-direction: row;
+  }
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.perfil img{
+    width: 208.82px;
+    height: 205px;
+    left: 164px;
+    top: 239px;
+}
+.nomeP p{
+    width: 204px;
+    height: 44px;
+    left: 392px;
+    top: 275px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+
+}
