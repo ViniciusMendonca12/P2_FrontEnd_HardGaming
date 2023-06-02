@@ -22,6 +22,7 @@ function cadastrar(){
         alert("As senhas não devem ser nulas!!!")
     }else if( senhaValor == confirmarSenhaValor){
         alert("Cadastrado com sucesso!!")
+        window.location.href = "https://viniciusmendonca12.github.io/P2_FrontEnd_HardGaming/pages/PaginaTorneios.html";
     }else{
         alert("As senhas não são iguais!!!")
     }
