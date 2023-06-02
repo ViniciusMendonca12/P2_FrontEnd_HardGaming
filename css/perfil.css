@@ -132,15 +132,9 @@ nav h1{
 .perfil img{
     width: 208.82px;
     height: 205px;
-    left: 164px;
     top: 239px;
 }
-.nomeP p{
-    width: 204px;
-    height: 44px;
-    left: 392px;
-    top: 275px;
-
+.nomeP p{   
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
